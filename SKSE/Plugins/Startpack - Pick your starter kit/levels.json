@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "levels": [
+    {
+      "name": "Untrained",
+      "multiplier": 0
+    },
+    {
+      "name": "Apprentice",
+      "multiplier": 1
+    },
+    {
+      "name": "Veteran",
+      "multiplier": 2
+    },
+    {
+      "name": "Expert",
+      "multiplier": 4
+    },
+    {
+      "name": "Mastered",
+      "multiplier": 6
+    }
+  ]
+}

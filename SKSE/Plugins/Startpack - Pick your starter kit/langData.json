@@ -1,0 +1,43 @@
+{
+    "settings": {
+        "separator": "---------------------------------------------------"
+    },
+    "level_list_menu": {
+        "title": "Choose your experience level"
+    },
+    "kit_list_menu": {
+        "title": "Choose your starter kit",
+        "level": "Your chosen level:",
+        "chose_another_level": "I wan't to chose another level",
+        "cancel": "I don't want anything",
+        "confirm_cancel": "Do you really not want to choose anything?",
+        "confirm_yes": "Yes",
+        "confirm_no": "No, I want a starter kit",
+        "confirm_opt_out": "You have chosen not to receive anything."
+    },
+    "preview": {
+        "header_items": "You will receive the following items:",
+        "header_spells": "You will receive the following spells:",
+        "header_shouts": "You will receive the following shouts:",
+        "header_skills": "You will receive the following skills:",
+        "confirm_message": "Do you want to proceed with this choice?",
+        "confirm": "OK",
+        "cancel": "Choose Another"
+    },
+    "error": {
+        "loading_file": "Error reading file:",
+        "no_options": "No option found",
+        "too_many_options": "Options limit exceeded",
+        "no_packs": "No packs found",
+        "no_level": "No experience level found",
+        "item_not_found": "Item not found:",
+        "spell_not_found": "Spell not found:",
+        "shout_not_found": "Shout not found:",
+        "skill_not_found": "Perk not found:",
+        "unknown_type": "Unknown type:"
+    },
+    "success": {
+        "added_shout": "You learned shout",
+        "added_skill_points": "You received skill points:"
+    }
+}

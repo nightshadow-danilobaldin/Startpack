@@ -1,0 +1,74 @@
+[
+    {
+        "id": "0x0001397D",
+        "plugin": "Skyrim.esm",
+        "type": "item",
+        "name": "Iron Arrow",
+        "amount": 50
+    },
+    {
+        "id": "0x0003B562",
+        "plugin": "Skyrim.esm",
+        "type": "item",
+        "name": "Long Bow",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "id": "0x0001397E",
+        "plugin": "Skyrim.esm",
+        "type": "item",
+        "name": "Iron Dagger",
+        "amount": 1
+    },
+    {
+        "id": "0x00013911",
+        "plugin": "Skyrim.esm",
+        "type": "item",
+        "name": "Hide Armor",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "id": "0x00013910",
+        "plugin": "Skyrim.esm",
+        "type": "item",
+        "name": "Hide Boots",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "id": "0x00013912",
+        "plugin": "Skyrim.esm",
+        "type": "item",
+        "name": "Hide Bracers",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "id": "0x00013913",
+        "plugin": "Skyrim.esm",
+        "type": "item",
+        "name": "Hide Helmet",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "skill",
+        "id": "Marksman",
+        "name": "Archery",
+        "amount": 10
+    },
+    {
+        "type": "skill",
+        "id": "Sneak",
+        "name": "Sneak",
+        "amount": 7
+    },
+    {
+        "type": "skill",
+        "id": "LightArmor",
+        "name": "Light Armor",
+        "amount": 7
+    }
+]

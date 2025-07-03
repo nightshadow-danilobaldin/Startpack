@@ -1,0 +1,81 @@
+[
+    {
+        "type": "item",
+        "id": "0x00013982",
+        "plugin": "Skyrim.esm",
+        "name": "Iron Mace",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x00012EB6",
+        "plugin": "Skyrim.esm",
+        "name": "Iron Shield",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x00012E49",
+        "plugin": "Skyrim.esm",
+        "name": "Iron Armor",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x00012E4B",
+        "plugin": "Skyrim.esm",
+        "name": "Iron Boots",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x00012E46",
+        "plugin": "Skyrim.esm",
+        "name": "Iron Gauntlets",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x00012E4D",
+        "plugin": "Skyrim.esm",
+        "name": "Iron Helmet",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "spell",
+        "id": "0x00012fcc",
+        "plugin": "Skyrim.esm",
+        "name": "Healing"
+    },
+    {
+        "type": "spell",
+        "id": "0x0005DD5D",
+        "plugin": "Skyrim.esm",
+        "name": "Turn Undead"
+    },
+    {
+        "type": "skill",
+        "id": "Restoration",
+        "name": "Restoration",
+        "amount": 10
+    },
+    {
+        "type": "skill",
+        "id": "HeavyArmor",
+        "name": "Heavy Armor",
+        "amount": 7
+    },
+    {
+        "type": "skill",
+        "id": "Block",
+        "name": "Block",
+        "amount": 7
+    }
+  ]
+  

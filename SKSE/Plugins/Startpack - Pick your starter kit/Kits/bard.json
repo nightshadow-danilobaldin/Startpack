@@ -1,0 +1,70 @@
+[
+    {
+        "type": "item",
+        "id": "0x00086991",
+        "plugin": "Skyrim.esm",
+        "name": "Fine Clothes",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x00086993",
+        "plugin": "Skyrim.esm",
+        "name": "Fine Boots",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x000DABAB",
+        "plugin": "Skyrim.esm",
+        "name": "Lute",
+        "amount": 1
+    },
+    {
+        "type": "item",
+        "id": "0x0001397E",
+        "plugin": "Skyrim.esm",
+        "name": "Iron Dagger",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "spell",
+        "id": "0x0004DEE8",
+        "plugin": "Skyrim.esm",
+        "name": "Courage"
+    },
+    {
+        "type": "spell",
+        "id": "0x0004DEE9",
+        "plugin": "Skyrim.esm",
+        "name": "Calm"
+    },
+    {
+        "type": "spell",
+        "id": "0x00012fcc",
+        "plugin": "Skyrim.esm",
+        "name": "Healing"
+    },
+    {
+        "type": "skill",
+        "id": "Speechcraft",
+        "name": "Speechcraft",
+        "amount": 10
+    },
+    {
+        "type": "skill",
+        "id": "Illusion",
+        "name": "Illusion",
+        "amount": 7
+    },
+    {
+        "type": "skill",
+        "id": "OneHanded",
+        "name": "One Handed",
+        "amount": 7
+    }
+]
+  

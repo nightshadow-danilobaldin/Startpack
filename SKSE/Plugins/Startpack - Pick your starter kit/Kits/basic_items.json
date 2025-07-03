@@ -1,0 +1,58 @@
+[
+    {
+        "type": "item",
+        "id": "0x0000000A",
+        "plugin": "Skyrim.esm",
+        "name": "Lockpick",
+        "amount": 5
+    },
+    {
+        "type": "item",
+        "id": "0x0003eadd",
+        "plugin": "Skyrim.esm",
+        "name": "Potion of Minor Healing",
+        "amount": 4
+    },
+    {
+        "type": "item",
+        "id": "0x0003eae0",
+        "plugin": "Skyrim.esm",
+        "name": "Potion of Minor Magicka",
+        "amount": 2
+    },
+    {
+        "type": "item",
+        "id": "0x0002F2F4",
+        "plugin": "Skyrim.esm",
+        "name": "Woodcutter's Axe",
+        "amount": 1
+    },
+    {
+        "type": "item",
+        "id": "0x0001D4EC",
+        "plugin": "Skyrim.esm",
+        "name": "Torch",
+        "amount": 1
+    },
+    {
+        "type": "item",
+        "id": "0x00065C97",
+        "plugin": "Skyrim.esm",
+        "name": "Bread",
+        "amount": 2
+    },
+    {
+        "type": "item",
+        "id": "0x000721E8",
+        "plugin": "Skyrim.esm",
+        "name": "Cooked Beef",
+        "amount": 1
+    },
+    {
+        "type": "item",
+        "id": "0x000C5348",
+        "plugin": "Skyrim.esm",
+        "name": "Wine",
+        "amount": 1
+    }
+]

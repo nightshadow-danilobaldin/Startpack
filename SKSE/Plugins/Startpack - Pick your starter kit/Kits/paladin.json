@@ -1,0 +1,73 @@
+[
+    {
+        "type": "item",
+        "id": "0x00013987",
+        "plugin": "Skyrim.esm",
+        "name": "Steel Greatsword",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x000F6F22",
+        "plugin": "Skyrim.esm",
+        "name": "Steel Armor",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x000F6F23",
+        "plugin": "Skyrim.esm",
+        "name": "Steel Gauntlets",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x000F6F21",
+        "plugin": "Skyrim.esm",
+        "name": "Steel Boots",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x00013954",
+        "plugin": "Skyrim.esm",
+        "name": "Steel Helmet",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "spell",
+        "id": "0x00012fcc",
+        "plugin": "Skyrim.esm",
+        "name": "Healing"
+    },
+    {
+        "type": "spell",
+        "id": "0x0004B146",
+        "plugin": "Skyrim.esm",
+        "name": "Turn Lesser Undead"
+    },
+    {
+        "type": "skill",
+        "id": "Restoration",
+        "name": "Restoration",
+        "amount": 5
+    },
+    {
+        "type": "skill",
+        "id": "TwoHanded",
+        "name": "Two-Handed",
+        "amount": 10
+    },
+    {
+        "type": "skill",
+        "id": "HeavyArmor",
+        "name": "Heavy Armor",
+        "amount": 5
+    }
+  ]
+  

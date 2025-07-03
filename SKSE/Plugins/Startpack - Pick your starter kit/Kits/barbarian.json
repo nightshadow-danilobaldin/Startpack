@@ -1,0 +1,61 @@
+[
+    {
+      "type": "item",
+      "id": "0x00013980",
+      "plugin": "Skyrim.esm",
+      "name": "Iron Battleaxe",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x0006F393",
+      "plugin": "Skyrim.esm",
+      "name": "Fur Armor",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x000A6D7F",
+      "plugin": "Skyrim.esm",
+      "name": "Fur Boots",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x0006F39B",
+      "plugin": "Skyrim.esm",
+      "name": "Fur Bracers",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x0006F39E",
+      "plugin": "Skyrim.esm",
+      "name": "Fur Helmet",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "skill",
+      "id": "TwoHanded",
+      "name": "Two Handed",
+      "amount": 10
+    },
+    {
+      "type": "skill",
+      "id": "Block",
+      "name": "Block",
+      "amount": 7
+    },
+    {
+      "type": "skill",
+      "id": "LightArmor",
+      "name": "Light Armor",
+      "amount": 7
+    }
+  ]
+  

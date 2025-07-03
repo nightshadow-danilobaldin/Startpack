@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Barbarian",
+    "kits": ["basic_items", "barbarian"]
+  },
+  {
+    "name": "Bard",
+    "kits": ["basic_items", "bard"]
+  },
+  {
+    "name": "Cleric",
+    "kits": ["basic_items", "cleric"]
+  },
+  {
+    "name": "Hunter",
+    "kits": ["basic_items", "hunter"]
+  },
+  {
+    "name": "Knight",
+    "kits": ["basic_items", "knight"]
+  },
+  {
+    "name": "Mage",
+    "kits": ["basic_items", "mage"]
+  },
+  {
+    "name": "Necromancer",
+    "kits": ["basic_items", "necromancer"]
+  },
+  {
+    "name": "Paladin",
+    "kits": ["basic_items", "paladin"]
+  },
+  {
+    "name": "Thief",
+    "kits": ["basic_items", "thief"]
+  }
+]

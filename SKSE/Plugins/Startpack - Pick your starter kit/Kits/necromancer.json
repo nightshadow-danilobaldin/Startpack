@@ -1,0 +1,60 @@
+[
+    {
+      "type": "item",
+      "id": "0x0010CEE8",
+      "plugin": "Skyrim.esm",
+      "name": "Novice Hood",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x0010D66A",
+      "plugin": "Skyrim.esm",
+      "name": "Novice Robes of Conjuration",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x0010E2CE",
+      "plugin": "Skyrim.esm",
+      "name": "College Boots",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x00029B74",
+      "plugin": "Skyrim.esm",
+      "name": "Staff of Zombies",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "spell",
+      "id": "0x0007E8E1",
+      "plugin": "Skyrim.esm",
+      "name": "Raise Zombie"
+    },
+    {
+      "type": "spell",
+      "id": "0x000640B6",
+      "plugin": "Skyrim.esm",
+      "name": "Conjure Familiar"
+    },
+    {
+      "type": "shout",
+      "id": "0x0007097c",
+      "plugin": "Skyrim.esm",
+      "name": "Marked for Death",
+      "words": ["0x00060297"]
+    },
+    {
+      "type": "skill",
+      "id": "Conjuration",
+      "name": "Conjuration",
+      "amount": 13
+    }
+  ]
+  

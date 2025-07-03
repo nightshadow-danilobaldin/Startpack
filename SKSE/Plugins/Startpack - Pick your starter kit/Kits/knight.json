@@ -1,0 +1,69 @@
+[
+    {
+      "type": "item",
+      "id": "0x00013989",
+      "plugin": "Skyrim.esm",
+      "name": "Steel Sword",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x00013955",
+      "plugin": "Skyrim.esm",
+      "name": "Steel Shield",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x000F6F22",
+      "plugin": "Skyrim.esm",
+      "name": "Steel Armor",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x000F6F23",
+      "plugin": "Skyrim.esm",
+      "name": "Steel Gauntlets",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x000F6F21",
+      "plugin": "Skyrim.esm",
+      "name": "Steel Boots",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "item",
+      "id": "0x00013954",
+      "plugin": "Skyrim.esm",
+      "name": "Steel Helmet",
+      "amount": 1,
+      "equip": true
+    },
+    {
+      "type": "skill",
+      "id": "HeavyArmor",
+      "name": "Heavy Armor",
+      "amount": 5
+    },
+    {
+      "type": "skill",
+      "id": "Block",
+      "name": "Block",
+      "amount": 5
+    },
+    {
+      "type": "skill",
+      "id": "OneHanded",
+      "name": "One Handed",
+      "amount": 10
+    }
+]
+  

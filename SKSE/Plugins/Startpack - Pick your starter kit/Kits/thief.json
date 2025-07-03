@@ -1,0 +1,73 @@
+[
+    {
+        "id": "0x0001397E",
+        "plugin": "Skyrim.esm",
+        "type": "item",
+        "name": "Iron Dagger",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x0003619E",
+        "plugin": "Skyrim.esm",
+        "name": "Leather Armor",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x00013922",
+        "plugin": "Skyrim.esm",
+        "name": "Leather Helmet",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x00013920",
+        "plugin": "Skyrim.esm",
+        "name": "Leather Boots",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "type": "item",
+        "id": "0x00013921",
+        "plugin": "Skyrim.esm",
+        "name": "Leather Bracers",
+        "amount": 1,
+        "equip": true
+    },
+    {
+        "id": "0x0000000A",
+        "plugin": "Skyrim.esm",
+        "type": "item",
+        "name": "Lockpick",
+        "amount": 20
+    },
+    {
+        "type": "spell",
+        "id": "0x0008F3EB",
+        "plugin": "Skyrim.esm",
+        "name": "Muffle"
+    },
+    {
+        "type": "skill",
+        "id": "Sneak",
+        "name": "Sneak",
+        "amount": 10
+    },
+    {
+        "type": "skill",
+        "id": "Lockpicking",
+        "name": "Lockpicking",
+        "amount": 10
+    },
+    {
+        "type": "skill",
+        "id": "Pickpocket",
+        "name": "Pickpocket",
+        "amount": 10
+    }
+]
