@@ -10,8 +10,8 @@ Import SkyMessage
 string modRootPath = "Data/SKSE/Plugins/Startpack - Pick your starter kit"
 
 Event OnInit()
-    while Utility.IsInMenuMode() || !Game.IsMovementControlsEnabled() || !Game.GetPlayer().Is3DLoaded() || !Game.IsFightingControlsEnabled()
-        Utility.Wait(1)
+    while Utility.IsInMenuMode() || !Game.IsMovementControlsEnabled() || !Game.GetPlayer().Is3DLoaded() || !Game.IsFightingControlsEnabled() || !IsActivateControlsEnabled()
+        Utility.WaitMenuMode(1)
     endwhile
 
     createEmptyPreviewObj()
@@ -388,7 +388,9 @@ function addItemToPlayer(string formId, string plugin, int amount, string name, 
     Form formItem = Game.GetFormFromFile(StringToInt(formId), plugin)
     if formItem != none
         Game.GetPlayer().AddItem(formItem, amount)
-        Game.GetPlayer().EquipItem(formItem)
+        if equip
+            Game.GetPlayer().EquipItem(formItem)
+        endif
     else
         Debug.Notification(t("error.item_not_found") + " " + name + " (" + formId + "@" + plugin + ")")
     endif
