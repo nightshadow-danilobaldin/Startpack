@@ -24,9 +24,9 @@
     },
     {
         "type": "item",
-        "id": "0x0001397E",
+        "id": "0x00012EB7",
         "plugin": "Skyrim.esm",
-        "name": "Iron Dagger",
+        "name": "Iron Sword",
         "amount": 1,
         "equip": true
     },

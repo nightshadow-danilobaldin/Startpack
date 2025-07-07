@@ -56,18 +56,18 @@
         "type": "skill",
         "id": "Sneak",
         "name": "Sneak",
-        "amount": 10
+        "amount": 7
     },
     {
         "type": "skill",
         "id": "Lockpicking",
         "name": "Lockpicking",
-        "amount": 10
+        "amount": 7
     },
     {
         "type": "skill",
         "id": "Pickpocket",
         "name": "Pickpocket",
-        "amount": 10
+        "amount": 7
     }
 ]

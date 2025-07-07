@@ -13,7 +13,8 @@
         "confirm_cancel": "Do you really not want to choose anything?",
         "confirm_yes": "Yes",
         "confirm_no": "No, I want a starter kit",
-        "confirm_opt_out": "You have chosen not to receive anything."
+        "confirm_opt_out": "You have chosen not to receive anything.",
+        "kit_given": "You've already got your stuff."
     },
     "preview": {
         "header_items": "You will receive the following items:",

@@ -1,4 +1,4 @@
-Scriptname StartpackPlayerKitSelector extends Quest
+Scriptname StartpackPlayerKitSelector extends Quest hidden
 
 Import UIExtensions
 Import JContainers
@@ -10,15 +10,47 @@ Import SkyMessage
 string modRootPath = "Data/SKSE/Plugins/Startpack - Pick your starter kit"
 
 Event OnInit()
-    while Utility.IsInMenuMode() || !Game.IsMovementControlsEnabled() || !Game.GetPlayer().Is3DLoaded() || !Game.IsFightingControlsEnabled() || !IsActivateControlsEnabled()
-        Utility.WaitMenuMode(1)
-    endwhile
+    bool autostart = getIntSetting("autostart") as bool
+    if !autostart
+        return
+    endif
+
+    RegisterForMenu("RaceSex Menu")
+EndEvent
+
+event OnMenuClose(string menuName)
+    if menuName == "RaceSex Menu"
+        UnregisterForMenu("RaceSex Menu")
+        startChoices()
+    endIf
+endEvent
+
+function startChoices()
+    if StartpackKitGiven && StartpackKitGiven.GetValueInt() > 0
+        Debug.Notification(t("kit_list_menu.kit_given"))
+        return
+    endif
 
     createEmptyPreviewObj()
     createEmptyChoicesObj()
     showLevelList()
     showKitList()
-EndEvent
+endfunction
+
+int function getObjJson(string file)
+    int obj = JValue.readFromFile(modRootPath + "/" + file + ".json") as int
+    if obj == 0
+        string errorMessage = "[Startpack] Error reading file: " + modRootPath + "/" + file + ".json"
+        Debug.MessageBox(errorMessage)
+        Debug.Trace(errorMessage)
+    endif
+    return obj
+endfunction
+
+int function getIntSetting(string setting)
+    int settings = getObjJson("settings")
+    return JValue.solveInt(settings, "." + setting) as int
+endfunction
 
 function createEmptyChoicesObj()
     int obj = JMap.object()
@@ -264,6 +296,10 @@ function searchKitsForSelectedOption(bool preview)
 
     if preview
         previewKit()
+    else
+        if (StartpackKitGiven)
+            StartpackKitGiven.SetValueInt(1)
+        endif
     endif
 EndFunction
 
@@ -432,3 +468,5 @@ function addSkillToPlayer(string name, int skillLevel)
     Game.IncrementSkillBy(name, skillLevel)
         Debug.Notification(t("success.added_skill_points") + " " + skillLevel + "x " + name)
 endFunction
+
+GlobalVariable Property StartpackKitGiven auto
