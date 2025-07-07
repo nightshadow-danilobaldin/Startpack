@@ -22,23 +22,15 @@ Install the mod with your mod manager of choice (MO2 or Vortex) and follow the F
 
 ---
 
-## 📁 Repository Structure
+## 📁 Mod Configuration File Structure
 
-Startpack/
-├── FOMOD/
-│ └── ModuleConfig.xml # FOMOD installer configuration
-├── SKSE/
-│ └── Plugins/
-│ └── Startpack - Pick your starter kit/
-│ ├── Kits/ # JSON files for each starter kit
-│ ├── levels.json # Level presets
-│ ├── options.json # List of kit options
-│ ├── langData.json # Translatable UI text
-│ └── settings.json # General mod configuration
-├── Source/
-│ └── Scripts/
-│ └── StartpackPlayerKitSelector.psc # Main Papyrus script
-├── Startpack - Pick your pack.esp # ESL-flagged plugin
+    ├── SKSE/
+    │ ├── Kits/ # JSON files for each starter kit
+    │ ├── levels.json # Level presets
+    │ ├── options.json # List of kit options
+    │ ├── langData.json # Translatable UI text
+    │ └── settings.json # General mod configuration
+
 
 
 If using the Alternate Start addon, an additional plugin and configuration will be installed.
